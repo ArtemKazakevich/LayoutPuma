@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Bello";
+  src: url(../fonts/Bello.ttf); }
+
+div {
+  height: 500px;
+  width: 500px;
+  background-image: url(../img/Facebook_Background.png); }
