@@ -1,0 +1,59 @@
+.wrapper_logo {
+  padding: 0 10%;
+  background: linear-gradient(
+    to bottom,
+    #101010 0%,
+    #101010 40%,
+    #ffffff 40%,
+    #ffffff 100%
+  );
+  display: flex;
+}
+.wrapper_logo a {
+  text-decoration: none;
+}
+.nav_description {
+  display: flex;
+  align-items: center;
+}
+.nav_description p {
+  font-size: 0.625rem;
+  color: #999999;
+  font-family: "Proxima Nova";
+  margin: 0;
+}
+.nav_description ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.nav_description li{
+  margin: 0 5%;
+}
+.nav_description ul a {
+  text-decoration: none;
+  font-size: 0.625rem;
+  color: #999999;
+  font-family: "Proxima Nova";
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+nav a {
+  font-size: 17px;
+  color: #070707;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+}
+.wrapper_nav{
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+nav li{
+  margin: 0 5%;
+}

@@ -1,9 +1,13 @@
 @font-face {
-  font-family: "Bello";
-  src: url(../fonts/Bello.ttf);
+  font-family: "Proxima Nova";
+  src: url(../fonts/Proxima_Nova.ttf) format("truetype");
 }
-div{
-  height: 500px;
-  width: 500px;
-  background-image: url(../img/Facebook_Background.png);
+
+html{
+  font-size: 16px;
 }
+body{
+  margin: 0;
+}
+
+@import "header";
