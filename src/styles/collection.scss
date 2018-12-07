@@ -1,0 +1,54 @@
+.wrapper_collection {
+  padding: 0 10%;
+  background-color: #f4f4f4;
+  display: flex;
+}
+.nixon_collection {
+  display: flex;
+  background: url(../img/2_column_promo/Nixon_Perimeter_Collection.png)
+    no-repeat;
+  background-size: cover;
+  width: 50%;
+  padding-top: 26%;
+  justify-content: space-around;
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+.nixon_collection p {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  background: url(../img/2_column_promo/arrow_1.png) no-repeat right center;
+  padding: 1rem;
+}
+.nixon_collection a{
+  text-decoration: none;
+}
+.nixon_collection p:hover{
+  color: #241e1e;
+}
+.airMaxer_collection {
+  background: url(../img/2_column_promo/Pack_of_Air_Maxes.png) no-repeat;
+  background-size: cover;
+  width: 50%;
+  display: flex;
+  padding-top: 26%;
+  justify-content: center;
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+.airMaxer_collection p {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  background: url(../img/2_column_promo/arrow_1.png) no-repeat right center;
+  padding: 1rem;
+}
+.airMaxer_collection a{
+  text-decoration: none;
+}
+.airMaxer_collection p:hover{
+  color: #241e1e;
+}
