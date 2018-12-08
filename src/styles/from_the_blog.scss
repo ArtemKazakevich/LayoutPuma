@@ -87,60 +87,53 @@
 .description_blog_reverse:hover::before{
   border-right: 10px solid #6ff6eb;
 }
-.background_one_subblock_one{
-  width: 50%;
-  background: url(../img/blog/img_blog_11.png) no-repeat;
+@mixin backgroundBlog {
+  width: 50%; 
   background-size: cover;
+}
+.background_one_subblock_one{
+  background: url(../img/blog/img_blog_11.png) no-repeat;
+  @include backgroundBlog;
 }
 .background_one_subblock_two{
-  width: 50%;
   background: url(../img/blog/img_blog_12.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_two{
-  width: 50%;
   background: url(../img/blog/blog_background_2.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_two_subblock_one{
-  width: 50%;
   background: url(../img/blog/img_blog_21.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_two_subblock_two{
-  width: 50%;
   background: url(../img/blog/img_blog_22.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_three{
-  width: 50%;
   background: url(../img/blog/blog_background_3.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_three_subblock_one{
-  width: 50%;
   background: url(../img/blog/img_blog_31.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_three_subblock_two{
-  width: 50%;
   background: url(../img/blog/img_blog_32.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_four{
-  width: 50%;
   background: url(../img/blog/blog_background_4.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_four_subblock_one{
-  width: 50%;
   background: url(../img/blog/img_blog_41.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .background_four_subblock_two{
-  width: 50%;
   background: url(../img/blog/img_blog_42.png) no-repeat;
-  background-size: cover;
+  @include backgroundBlog;
 }
 .wrapper_button{
   display: flex;
