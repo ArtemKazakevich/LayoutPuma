@@ -27,7 +27,8 @@
   padding: 1rem; }
 
 .nixon_collection a {
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 .nixon_collection p:hover {
   color: #241e1e; }
@@ -55,7 +56,8 @@
   padding: 1rem; }
 
 .airMaxer_collection a {
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 .airMaxer_collection p:hover {
   color: #241e1e; }

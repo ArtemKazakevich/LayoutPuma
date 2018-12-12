@@ -51,6 +51,9 @@
   width: 50%;
   background-color: #ffffff;
   position: relative;
+  display: block;
+  text-decoration: none;
+  outline: none;
 }
 .description_blog::before{
   content: "";
@@ -64,6 +67,9 @@
   width: 50%;
   background-color: #ffffff;
   position: relative;
+  display: block;
+  text-decoration: none;
+  outline: none;
 }
 .description_blog_reverse::before{
   content: "";
@@ -74,14 +80,12 @@
   border-right: 10px solid #ffffff;
 }
 .description_blog:hover{
-  cursor: pointer;
   background-color: #6ff6eb;
 }
 .description_blog:hover::before{
   border-left: 10px solid #6ff6eb;
 }
 .description_blog_reverse:hover{
-  cursor: pointer;
   background-color: #6ff6eb;
 }
 .description_blog_reverse:hover::before{

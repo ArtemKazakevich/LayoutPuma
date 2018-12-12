@@ -23,6 +23,7 @@ footer {
   color: #868686;
   font-family: "Proxima Nova";
   font-weight: bold;
+  outline: none;
 }
 .wrapper_logo_footer {
   margin: 0 3%;
@@ -58,7 +59,9 @@ footer {
   flex-grow: 1;
 }
 .wrapper_social_contact a {
+  display: block;
   text-decoration: none;
+  outline: none;
 }
 .line {
   flex-grow: 4;
@@ -88,4 +91,5 @@ footer p {
   position: absolute;
   top: -31px;
   left: 50%;
+  outline: none;
 }

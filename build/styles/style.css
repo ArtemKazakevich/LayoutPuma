@@ -33,7 +33,8 @@ body {
   justify-content: space-between; }
 
 .wrapper_logo a {
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 .block {
   display: block; }
@@ -183,6 +184,9 @@ header button {
   padding: 8% 0;
   position: relative; }
 
+.wrapper_puma a {
+  outline: none; }
+
 .wrapper_puma img {
   border-bottom: 0.125rem solid #ff6600; }
 
@@ -244,7 +248,8 @@ header button {
   padding: 1rem; }
 
 .nixon_collection a {
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 .nixon_collection p:hover {
   color: #241e1e; }
@@ -272,7 +277,8 @@ header button {
   padding: 1rem; }
 
 .airMaxer_collection a {
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 .airMaxer_collection p:hover {
   color: #241e1e; }
@@ -335,7 +341,10 @@ header button {
 .description_blog {
   width: 50%;
   background-color: #ffffff;
-  position: relative; }
+  position: relative;
+  display: block;
+  text-decoration: none;
+  outline: none; }
 
 .description_blog::before {
   content: "";
@@ -348,7 +357,10 @@ header button {
 .description_blog_reverse {
   width: 50%;
   background-color: #ffffff;
-  position: relative; }
+  position: relative;
+  display: block;
+  text-decoration: none;
+  outline: none; }
 
 .description_blog_reverse::before {
   content: "";
@@ -359,14 +371,12 @@ header button {
   border-right: 10px solid #ffffff; }
 
 .description_blog:hover {
-  cursor: pointer;
   background-color: #6ff6eb; }
 
 .description_blog:hover::before {
   border-left: 10px solid #6ff6eb; }
 
 .description_blog_reverse:hover {
-  cursor: pointer;
   background-color: #6ff6eb; }
 
 .description_blog_reverse:hover::before {
@@ -458,6 +468,9 @@ header button {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
+.wrapper_brand_logo a {
+  outline: none; }
+
 footer {
   padding: 7% 10%;
   background-color: black;
@@ -493,7 +506,8 @@ footer {
   font-size: 0.875rem;
   color: #868686;
   font-family: "Proxima Nova";
-  font-weight: bold; }
+  font-weight: bold;
+  outline: none; }
 
 .wrapper_logo_footer {
   margin: 0 3%; }
@@ -548,7 +562,9 @@ footer {
   flex-grow: 1; }
 
 .wrapper_social_contact a {
-  text-decoration: none; }
+  display: block;
+  text-decoration: none;
+  outline: none; }
 
 .line {
   -webkit-box-flex: 4;
@@ -587,4 +603,5 @@ footer p {
   text-decoration: none;
   position: absolute;
   top: -31px;
-  left: 50%; }
+  left: 50%;
+  outline: none; }
